@@ -1,5 +1,12 @@
-# [tktk Module Name] - Level Up
+# Intro to JS Functions - Level Up
 
 ![Hero image](../assets/tktkhero-secondary-subhead.png)
 
-tktk optional student-facing level up content should be added here. Not all modules will have level up content - if it doesn't, the `level-up` directory should be deleted, and the link to it in the main `README.md` file should be removed.
+### Level Up Lessons:
+
+- [Functions As Arguments](./functions-as-arguments.md) 
+- [Fewer Arguments Than Parameters Defined](./fewer-arguments.md)
+- [Rest Parameters](./rest-parameters) 
+- [Extra Arguments Than Parameters Defined](./extra-arguments.md) 
+- [Immediately Invoked Function Expressions](./iife.md) 
+- [Nesting Functions](./nesting-functions.md) 

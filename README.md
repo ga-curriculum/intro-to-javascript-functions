@@ -1,24 +1,34 @@
-# [tktk Module Name]
+# Intro to JS Functions
 
 ![Hero image](./assets/tktkhero-main.png)
 
 ## Module overview
 
+This module introduces functions in JavaScript.
+
 ### Learning objectives
 
 After completing this module, students will be able to:
 
-- tktk learning objective 1
-- tktk learning objective 2
-- tktk learning objective 3
+- Clearly define the concept and significance of functions in JavaScript.
+- Compose function declarations and function expressions with appropriate syntax and naming convention.
+- Declare a function with parameters.
+- Call a function with arguments.
+- Apply default parameters. 
+- Have a clear understanding of function scope.
+
 
 ## Content outline
 
 | Lesson | Video Time | Video |
 | ------ |:----------:|:-----:|
-| [tktk Micro Lesson Name](./tktk-micro-lesson-01/README.md) | tktk min | [tktk Link]() |
-| [tktk Micro Lesson Name](./tktk-micro-lesson-02/README.md) | tktk min | [tktk Link]() |
-| [tktk Micro Lesson Name](./tktk-micro-lesson-03/README.md) | tktk min | [tktk Link]() |
+| [Setup](./setup/README.md) | tktk min | [tktk Link]() |
+| [Concepts](./concepts/README.md) | tktk min | [tktk Link]() |
+| [Fundamentals](./fundamentals/README.md) | tktk min | [tktk Link]() |
+| [Parameters and Arguments](./parameters-and-arguments/README.md) | tktk min | [tktk Link]() |
+| [Return Values](./return-values/README.md) | tktk min | [tktk Link]() |  
+| [Declaration, Expression, and Scope](./declaration-expression-scope/README.md) | tktk min | [tktk Link]() |
+| [Arrow Function Expressions](./arrow-functions/README.md) | tktk min | [tktk Link]() |  
 |  **Total Module**                                          | tktk min | --            | 
 
 ## Additional content 

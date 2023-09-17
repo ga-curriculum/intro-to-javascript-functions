@@ -1,4 +1,4 @@
-# [tktk Module Name] - References
+# Intro to JS Functions - References
 
 ![Hero image](../assets/tktkhero-secondary-subhead.png)
 
@@ -6,8 +6,4 @@
 
 Links from lessons:
 
-- [tktk descriptive name of link]()
-
-- [tktk descriptive name of link]()
-
-- [tktk descriptive name of link]()
+- [Functions - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)

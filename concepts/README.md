@@ -1,6 +1,6 @@
-# Intro to JS Functions - Concepts
+# Intro to JavaScript Functions - Concepts
 
-![Hero image](../assets/tktkhero-secondary-subhead.png)
+![Hero image](./assets/hero.png)
 
 ## What is a function? 
 

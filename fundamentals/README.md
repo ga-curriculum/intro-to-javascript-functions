@@ -1,6 +1,6 @@
-# Intro to JS Functions - Fundamentals
+# Intro to JavaScript Functions - Fundamentals
 
-![Hero image](../assets/tktkhero-secondary-subhead.png)
+![Hero image](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand the basic syntax required to create function declarations, and how to invoke a function.
 

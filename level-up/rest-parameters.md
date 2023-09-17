@@ -1,3 +1,7 @@
+# Intro to JavaScript Functions - Level Up
+
+![Hero image](./assets/hero.png)
+
 # Rest Parameters
 
 The [rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) syntax allows a function to accept any number of arguments as a named array. The syntax is identical to the [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax), but whereas the spread operator expands an array into its elements, the rest syntax does the opposite, taking multiple arguments and condensing them into a single array.

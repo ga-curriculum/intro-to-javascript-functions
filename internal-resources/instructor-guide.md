@@ -1,6 +1,6 @@
-# Intro to JS Functions - Instructor Guide
+# Intro to JavaScript Functions - Instructor Guide
 
-![Hero image](../assets/tktkhero-secondary.png)
+![Hero image](../assets/hero-secondary.png)
 
 
 <hr>

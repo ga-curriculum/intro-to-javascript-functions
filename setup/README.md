@@ -1,6 +1,6 @@
-# Intro to JS Functions - Setup
+# Intro to JavaScript Functions - Setup
 
-![Hero image](../assets/tktkhero-secondary-subhead.png)
+![Hero image](./assets/hero.png)
 
 Open your Terminal application and navigate to your `~/code/sei/lectures` directory:
 

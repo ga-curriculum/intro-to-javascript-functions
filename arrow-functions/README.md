@@ -1,6 +1,6 @@
 # Intro the JS Functions - Arrow Function Expressions
 
-![Hero image](../assets/tktkhero-secondary-subhead.png)
+![Hero image](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to compose arrow function expressions.
 

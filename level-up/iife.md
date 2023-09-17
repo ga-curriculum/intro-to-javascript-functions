@@ -1,3 +1,7 @@
+# Intro to JavaScript Functions - Level Up
+
+![Hero image](./assets/hero.png)
+
 # Immediately Invoked Function Expressions (IIFE)
 
 One way we can prevent our code from leaking into the global scope is by wrapping it with a construct known as an Immediately Invoked Function Expression, or “IIFE” (pronounced “iffy”). It looks like this:

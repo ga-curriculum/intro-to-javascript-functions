@@ -1,8 +1,8 @@
-# Intro to JS Functions - Declaration, Expression, and Scope
+# Intro to JavaScript Functions - Expressions and Scope
 
-![Hero image](../assets/tktkhero-secondary-subhead.png)
+![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to compose function declarations and function expressions with appropriate syntax and naming conventions, and have a clear understanding of function scope.
+**Learning objective:** By the end of this lesson, students will be able to function expressions with appropriate syntax and naming conventions, and have a clear understanding of function scope.
 
 ## Function Expressions: Assigning a function to a variable
 

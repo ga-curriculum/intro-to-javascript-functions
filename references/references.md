@@ -1,6 +1,6 @@
-# Intro to JS Functions - References
+# Intro to JavaScript Functions - References
 
-![Hero image](../assets/tktkhero-secondary-subhead.png)
+![Hero image](./assets/hero.png)
 
 ## Lesson references
 

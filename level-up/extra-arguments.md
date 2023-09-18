@@ -2,11 +2,11 @@
 
 ![Hero image](./assets/hero.png)
 
-# Extra Arguments Than Parameters Defined
+## Extra Arguments Than Parameters Defined
 
 Let’s pretend you need to write a function that accepts an unknown number of arguments. For example, let’s say we would like to provide any number of “time” arguments to a getPointsScored function and return a total number of points scored.
 
-Here’s how we could write `getPointsScored` to accept any number of individual “time” arguments:
+Here’s how we could write `getPointsScored()` to accept any number of individual “time” arguments:
 
 ```javascript
 // Using rest parameter syntax to condense any number of arguments into a single array

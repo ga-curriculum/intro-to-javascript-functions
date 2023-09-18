@@ -27,7 +27,7 @@ function name(parameter1, parameter2, ...parameterN) {
 }
 ```
 
-> 📚 Parameters are the named variables listed in a function's definition that serve as placeholders for the values that will be passed to the function when it is called. Parameters act like local variables within a function, and can act as placeholders for any kind of data. 
+> 📚 _Parameters_ are the named variables listed in a function's definition that serve as placeholders for the values that will be passed to the function when it is called. Parameters act like local variables within a function, and can act as placeholders for any kind of data. 
 
 Let's look at a slightly refactored version of our `sayHello()` function: 
 
@@ -37,9 +37,9 @@ function sayHello(name){
 }
 ```
 
-What we want this function to do is accept a name as input, and log out `Hello` plus whatever the name is. When we define this function, we have no way of knowing what name it will be, but that's ok - remember that parameters are placeholders! 
+What we want this function to do is accept a name value as input, and log out `Hello` plus whatever that name is. When we define this function, we have no way of knowing what name it will be, but that's ok - remember that parameters are placeholders! 
 
-Now that we've added a `name` parameter, we can use it just like a normal variable. We'll log it in the console, concatenated with a basic greeting. Remember, functions don't run until we call them, so it's ok that `name` is undefined when we are declaring the function.
+Now that we've added a `name` parameter, we can use it just like a normal variable. We'll log it in the console, concatenated with a basic greeting. Functions don't run until we call them, so it's ok that `name` is undefined when we are declaring the function.
 
 Now the fun part. Note that when we called our function earlier, we also had empty parentheses following the name: 
 
@@ -47,9 +47,9 @@ Now the fun part. Note that when we called our function earlier, we also had emp
 sayHello();
 ```
 
-In a similar process to how we define parameters when creating a function, we can also pass values to a function when we call them. These values are known as arguments. 
+In a similar looking process to how we define parameters when creating a function, we can also pass values to a function when we call them. These values are known as _arguments_. 
 
-> 📚 Arguments are the values supplied to a function when it is called, which are then assigned to the corresponding parameters within the function.
+> 📚 _Arguments_ are the values supplied to a function when it is called, which are then assigned to the corresponding parameters within the function.
 
 When we call the `sayHello()` function, we can supply any name (as a string value) as an argument: 
 
@@ -97,17 +97,17 @@ function addOne(num) {
 }
 ```
 
-This function is designed to take in a single integer as input. In this example, `num` acts a placeholder for whatever integer might be passed into the function when it is called.
+This function is designed to take in a single integer as input. In this example, `num` acts as a placeholder for whatever integer might be passed into the function when it is called.
 
 Try to name your parameters sensibly to avoid confusion, and be mindful of the data types that are passed in. 
 
 Let's look at an example with multiple parameters:
 
-<img src="./assets/diagram1.png" width="600px">
+<img src="./assets/diagram1.png" width="600px" alt="diagram of parameters and arguments">
 
 Arguments are assigned to parameters positionally, which is to say the order of parameters and arguments matter. The first argument passed to a function will line up with the first parameter, the second argument will line up with the second parameter, and so forth. 
 
-Parameters become local variables inside the function body, and are only accessible inside the function in which they are defined. Just like when naming variables and functions, it’s vital to name parameters using identifiers that are representative of the data they will hold. 
+Parameters become _local variables_ inside the function body, and are only accessible inside the function in which they are defined (we'll touch on this further when we cover scope). Just like when naming variables and functions, it’s vital to name parameters using identifiers that are representative of the data they will hold. 
 
 ## Calling a function with arguments
 
@@ -148,7 +148,7 @@ add(1, 1, 1) // returns 3
 
 What if your function requires certain arguments, and you want to provide a default value for the parameter if an argument is not supplied when the function is invoked?
 
-No problem - JavaScript has the option to specify default parameters. By specifying a default, `name` will always equal 'friend' unless an argument is supplied! This overrides the default behavior of `name` being `undefined` unless passed an argument.
+No problem - JavaScript has the option to specify _default parameters_. By specifying a default, `name` will always equal 'friend' unless an argument is supplied! This overrides the default behavior of `name` being `undefined` unless passed an argument.
 
 ```javascript
 function sayHi(name = 'friend'){
@@ -167,7 +167,7 @@ sayHi('Joe') // logs 'Hi Joe!'
 Any expression can be provided as a default, including objects, functions, etc.
 
 
-# Parameter/argument - Review Questions ❓
+## Parameter/argument - Review Questions ❓
 
 **❓ What’s the difference between an *argument* and a *parameter*?**
 

@@ -12,14 +12,14 @@ Functions optionally take in data as _input_ and return a single piece of data (
 
 ## Why are functions important in programming?
 
-### Tackle Complexity
+### Tackle complexity
 
 We typically tackle a complex task by breaking it into smaller tasks or steps - when we’re programming, we want to do the same! Functions allow us to break up programs into more manageable blocks of code.
 
-### Code Reuse
+### Code reuse
 
 Functions provide code reuse because they can be called repeatedly. For example, a `renderBoard` function might be called every time the data in a board variable is changed. This allows us to keep our code DRY.
 
-### Documentation & Debugging 
+### Documentation & debugging 
 
 Naming functions appropriately, e.g., `renderBoard`, helps to document what that code is doing. Organizing code into functions also makes it easier to find and fix code that’s not working as expected, a process known as debugging.

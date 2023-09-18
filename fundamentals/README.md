@@ -6,10 +6,10 @@
 
 ## Function Syntax
 
-A basic function declaration will have the following syntax: 
+A _function declaration_ will have the following syntax: 
 
 
-<img src="./assets/function-syntax-1.png" width="100%">
+<img src="./assets/function-syntax-1.png" width="100%" alt="basic function declaration syntax">
 
 
 1. The `function` keyword.
@@ -21,10 +21,9 @@ A basic function declaration will have the following syntax:
 &nbsp; b. Optionally, a return statement.
 
 
-
 ## Declaring a Function
 
-A basic function declaration looks something like this:
+A basic function declaration could look something like this:
 
 ```javascript
 function printBanner() {
@@ -47,7 +46,7 @@ In the body of our function we are logging three lines of text to the console. T
 
 ## Calling a Function
 
-Defining a function **does not** execute it. 
+Defining a function **_does not_** execute it. 
 In order to run a function, a function must be called. 
 
 If we wanted to call the `printBanner()` function from our previous example, we would do so like this:

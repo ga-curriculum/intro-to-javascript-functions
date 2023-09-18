@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-# Nesting Functions
+## Nesting Functions
 
 As the examples above have shown, we can define functions within functions!
 

@@ -2,13 +2,13 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to function expressions with appropriate syntax and naming conventions, and have a clear understanding of function scope.
+**Learning objective:** By the end of this lesson, students will be able to create function expressions with appropriate syntax and naming conventions, and have a clear understanding of function scope.
 
-## Function Expressions: Assigning a function to a variable
+## Function expressions: assigning a function to a variable
 
 So far, we've mostly covered function declarations, but it's important to be aware of another fundamental way of writing a function: function expressions. 
 
-Let's look at an example function declaration: 
+To get a sense of how they're different, let's look at an example function declaration: 
 
 ```javascript
 function add(a, b){
@@ -23,11 +23,25 @@ const add = function(a, b) {
   return a + b;
 }
 ```
-The `function` keyword is used to define a function inside of the expression.  
+The `function` keyword is used to define a function inside of the expression.
 
-Note that the function itself has no name - function expressions allow us to omit the name and create what is known as an _anonymous function_.
+Note that the function itself has no name - function expressions allow us to omit the name and create what is known as an _anonymous function_. 
 
-Another key difference is that function expressions cannot be invoked before they are defined. In contrast, function declarations are **hoisted** to the top of their scope and may be invoked even if they are defined later in the source code.
+> 📚 An _anonymous function_ is any function without a name. 
+
+
+Due to being anonymous, function expressions assigned to a variable are invoked using the variable name. 
+
+```javascript
+const add = function(a, b) {
+  return a + b;
+}
+// called using the variable name:
+add(4, 2)
+```
+
+
+Another key difference is that function expressions cannot be invoked before they are defined. In contrast, function declarations are _hoisted_ to the top of their scope and may be invoked even if they are defined later in the source code.
 
 Consider the following example: 
 ```javascript
@@ -99,7 +113,6 @@ const subtract = function(num1, num2){
 ```
 
 No problems - thanks function scope! 
-
 
 
 ## Functions - Review Questions ❓

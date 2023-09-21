@@ -4,7 +4,7 @@
 
 ## Module overview
 
-This module introduces functions in JavaScript.
+This module introduces functions in JavaScript. Functions are essential for reusable code and effective programming. Learn to define, invoke, and understand various types of functions to enhance your JavaScript language skills.
 
 ## Content outline
 

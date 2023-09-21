@@ -6,9 +6,11 @@
 
 ## What is a return value
 
-A _return value_ is the output of a function. 
+A _return value_ is the output of a function. In other words, it is what a function gives you back after it finishes running.
 
-Unless specified, the default return value for a function is `undefined`. Functions are not required to return a defined value, but there are often cases where it is advantageous to use the outcome of running a function for future calculations. This is where the return statement comes in handy.
+If a function does not explicitly return a value, it defaults to returning `undefined`. This simply means that the function has not been instructed to give back a specific result.
+
+However, there are scenarios where you may want to use the result of a function for further operations. In such cases, the "return" statement is used to specify what value the function should output for later use.
 
 ## The 'return' statement
 
@@ -100,7 +102,7 @@ console.log(checkout()); // 132.68
 
 The ability to store and use return values allows us to use _helper functions_ to keep our code concise and legible. 
 
-> :books _Helper functions_ are functions that perform a part of the calculations of another function - `calculateTax()` above is a great example. 
+> :books: _Helper functions_ are functions that perform a part of the calculations of another function - `calculateTax()` above is a great example. 
 
 Breaking up a larger function into smaller helper functions can make it much easier to understand what a function is doing. Take the following example: 
 

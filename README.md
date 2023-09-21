@@ -21,7 +21,7 @@ This module introduces functions in JavaScript.
 
 ## Additional content 
 
-📖 [Reference Materials](./references/references.md)
+📖 [Reference Materials](./references/README.md)
 
 ### 🚀 Level Up
 
@@ -36,7 +36,7 @@ This module introduces functions in JavaScript.
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
-🎥 [Video Hub](./internal-resources/video-guide/README.md)
+🎥 [Video Hub](./internal-resources/video-hub/README.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 

@@ -107,7 +107,7 @@ Let's look at an example with multiple parameters:
 
 Arguments are assigned to parameters positionally, which is to say the order of parameters and arguments matter. The first argument passed to a function will line up with the first parameter, the second argument will line up with the second parameter, and so forth. 
 
-Parameters become _local variables_ inside the function body, and are only accessible inside the function in which they are defined (we'll touch on this further when we cover scope). Just like when naming variables and functions, it’s vital to name parameters using identifiers that are representative of the data they will hold. 
+Parameters become _local variables_ inside the function body, and are only accessible inside the function in which they are defined. Just like when naming variables and functions, it’s vital to name parameters using identifiers that are representative of the data they will hold. 
 
 ## Calling a function with arguments
 

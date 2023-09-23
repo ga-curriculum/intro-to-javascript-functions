@@ -41,7 +41,7 @@ The name of our function is `printBanner` - it prints a banner! Functions do som
 
 In the body of our function we are logging three lines of text to the console. These would be our statements. 
 
-> 📚 A quick note on commenting functions: 
+> 🧠 A quick note on commenting functions: 
 > comments should explain _why_ you chose to solve a task a certain way, not _what_ the code itself is doing. If your code is unclear enough that it requires a comment, it is often best to rewrite the code. Your code should speak for itself, if well-composed. 
 
 ## Calling a Function

@@ -60,12 +60,15 @@ const expressionAdd = function(a, b) {
 }
 ```
 
+> :books: When your code is run, JavaScript takes a first pass at it to identify all the variables and function declarations. During this first pass, variables are set up but not assigned their values, and entire function declarations are moved to the top. This is what we refer to as *hoisting*.
+
+
 
 ## Scope
 
 A function creates its own scope, which means that a variable defined within a function cannot be accessed from outside the function. 
 
-> 🧠 Variables created inside any scope other than global scope are considered to be **locally scoped**.
+> 🧠 Variables created inside any scope other than global scope are considered to be *locally scoped*.
 
 There are two primary considerations when working with function scope. The first has to do with parameters. Parameters are locally scoped variables, which means they will not be accessible outside of the function body in which they are created. 
 

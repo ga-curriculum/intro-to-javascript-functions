@@ -6,7 +6,13 @@
 
 A function is a reusable block of code written to perform a single purpose. With a function, you can store code that can be used conveniently as many times as you wish, without having to rewrite the code each time. As a result, functions are one of the fundamental building blocks of JavaScript, and you'll find and use them everywhere. 
 
+<figure>
+  <figcaption><a href="https://commons.wikimedia.org/wiki/File:Function_machine2.svg">Source</a></figcaption>
+  <img src="./assets/functions.png" alt="input and output of a function">
+</figure>
+
 Functions optionally take in data as _input_ and return a single piece of data (including complex data such as objects or other functions).
+
 
 > 📚 A function is a block of code that can be called as needed and is designed to perform a specific task. A function may accept input and can return a result after performing its task.
 

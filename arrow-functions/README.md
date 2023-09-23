@@ -32,4 +32,19 @@ const double = number => number * 2;
 
 Arrow Functions also have a unique way of binding the `this` keyword, which makes them unsuitable for use as methods or constructors - but don’t worry about that for now. Just know, arrow functions exist as a more compact alternative to traditional function expressions. 
 
+## 🧠 You Do: 
+
+Lets practice using this new syntax by converting a regular function into its arrow function equivalent.
+
+1. Take a look at the following function that squares a number:
+
+```JS
+function square(num) {
+    return num * num;
+}
+```
+
+1. Convert this function into an arrow function.
+2. Could this function be reduced to just one line? What would that look like?
+
 

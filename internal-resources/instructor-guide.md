@@ -2,6 +2,15 @@
 
 ![Hero image](../assets/hero-secondary.png)
 
+## Overview
+
+In this content students will build:
+- Function declarations
+- Function expressions
+- Arrow function expressions
+
+The remainder of the JavaScript content uses arrow function expressions wherever possible, but given that students will frequently encounter these three types, the syntax for all of them are presented in this module. 
+
 ## Parameters and Arguments You Do solution
 
 Here's a potential solution to the Parameters and Arguments You Do:

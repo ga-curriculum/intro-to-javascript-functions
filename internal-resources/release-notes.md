@@ -12,12 +12,10 @@ This release modularizes the legacy Intro to JavaScript Functions lecture and pr
 
 Microlesson on Return Values
 
-
 **Changes**
 
 General restructuring of content - Basic Syntax covers Function Declarations only, introduces Parameters and Args. 
 Moves Default Parameters to core lesson, under Parameters and Arguments
-
 
 **Removals**
 

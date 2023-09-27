@@ -6,7 +6,7 @@
 
 ## Function syntax
 
-A _function declaration_ will have the following syntax: 
+A function declaration will have the following syntax: 
 
 ![Basic function declaration syntax](./assets/function-syntax.png)
 
@@ -40,7 +40,7 @@ In the body of our function, we are logging three lines of text to the console. 
 
 > 🧠 A quick note on commenting functions:
 > 
-> Comments should explain *why* you chose to solve a task a certain way, typically not *what* the code is doing. If your code is unclear enough to require a comment, it is often best to rewrite it. Well-composed code should generally speak for itself.
+> Comments should explain ***why*** you chose to solve a task a certain way, typically not ***what*** the code is doing. If your code is unclear enough to require a comment, it is often best to rewrite it. Well-composed code should generally speak for itself.
 
 ## Calling a function
 

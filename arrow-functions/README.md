@@ -24,7 +24,7 @@ const add = (numA, numB) => {
 }
 ```
 
-Arrow function expressions offer a more concise syntax compared to function expressions. We can leave off the function keyword entirely when composing them. Here's a breakdown:
+Arrow function expressions offer a more concise syntax compared to function expressions while using many of the same patterns. We can leave off the function keyword entirely when composing them. Here's a breakdown:
 
 ![The syntax of a arrow function expression](./assets/arrow-function-expression-syntax.png)
 
@@ -35,6 +35,8 @@ Arrow function expressions offer a more concise syntax compared to function expr
 5. The body of the function is indicated by curly braces. 
    - 5a. The statements that make up the function itself.
    - 5b. Optionally, a `return` statement.
+
+
 
 > 🚀 Arrow functions have a couple of cool and unique twists that can make them even more concise. Check out the [Advanced Arrow Functions Level Up](../level-up/advanced-arrow-functions.md) for more.
 

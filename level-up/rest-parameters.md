@@ -16,5 +16,5 @@ function calculateAverage(...scores){
   return total / scores.length;
 }
 
-calculateAverage(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) // returns 5.5
+calculateAverage(1, 2, 3, 4, 5, 6, 7, 8, 9, 10); // returns 5.5
 ```

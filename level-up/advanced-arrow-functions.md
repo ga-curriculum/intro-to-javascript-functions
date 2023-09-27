@@ -7,9 +7,9 @@
 Arrow functions composed of a single expression (something resolves to a single value) will automatically evaluate and return that expression without requiring us to write the `return` keyword. Just leave off the curly braces, and the rest happens automatically.
 
 ```javascript
-const multiply = (numA, numB) => numA * numB
+const multiply = (numA, numB) => numA * numB;
 
-console.log(multiply(3, 4))
+console.log(multiply(3, 4));
 // Prints: 12
 ```
 
@@ -20,10 +20,10 @@ When working with a single parameter, we can omit the parentheses entirely:
 ```javascript
 // note the lack of () around the num parameter!
 const addTwo = num => {
-  console.log(num + 2)
+  console.log(num + 2);
 }
 
-addOne(2)
+addOne(2);
 ```
 
 ## Combining these ideas

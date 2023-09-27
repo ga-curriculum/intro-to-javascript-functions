@@ -2,10 +2,10 @@
 
 ![Hero image](./assets/hero.png)
 
-Open your Terminal application and navigate to your `~/code/sei/lectures` directory:
+Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
 ```bash
-cd ~/code/sei/lectures
+cd ~/code/ga/lectures
 ```
 
 Make a new directory called `js-functions`, then enter this directory:
@@ -33,7 +33,7 @@ Open the `index.html` file and add HTML boilerplate. Then make use of the `app.j
 <script defer src="./app.js"></script>
 ```
 
-With this setup complete, we'll have two methods at our disposal for executing the code we write in app.js:
+With this setup complete, we'll have two methods at our disposal for executing the code we write in `app.js`:
 
 - Open the `index.html` file in your browser and access the console output in your browser's dev tools.
 

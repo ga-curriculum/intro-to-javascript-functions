@@ -24,4 +24,4 @@ Functions provide code reuse because they can be called repeatedly. For example,
 
 ### Documentation & debugging 
 
-Naming functions appropriately, for example a `renderBoard` helps document what that code is doing. Organizing code into functions also makes it easier to find and fix code that's not working as expected, a process known as debugging.
+Naming functions appropriately, for example a name like `renderBoard` helps document what that function's job is (to show the user the current game board).Organizing code into functions also makes it easier to find and fix code that's not working as expected, a process known as debugging.

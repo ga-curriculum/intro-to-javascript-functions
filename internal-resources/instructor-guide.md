@@ -23,7 +23,7 @@ planetHasWater('Jupiter'); // should print false
 
 ## Return Values
 
-In the [Return Values](../return-values/README.md) content there is a `compileAndSend` function that has a collection of helper functions:
+In the [Return Values](../return-values/README.md) content, there is a `compileAndSend` function that has a collection of helper functions:
 
 ```javascript 
 function compileAndSend() {
@@ -64,7 +64,7 @@ function sendReport(report) {
 }
 ```
 
-This is intended to be a very high level view of how functions can be written to create larger applications. It is extremely hand wavey to details. 
+This is intended to be a high-level view of how functions can be written to create larger applications. It is exceptionally hand-wavey to details. 
 
 This is not intended to be an exercise in writing code that would calculate sales data, labor costs, or budgets. It only demonstrates how writing many smaller functions and composing them together can create code that is easier to read and understand at a high level.
 
@@ -87,7 +87,7 @@ console.log(computeArea(5, 25));
 
 ## Arrow Functions
 
-Highly recommend pointing students to the level up content associated with arrow functions (or reviewing that content live) if you want to take advantage of more advanced arrow function features with your group.
+We highly recommend pointing students to the Level Up content associated with arrow functions (or reviewing that content live) if you want to take advantage of more advanced arrow function features with your group.
 
 ### You Do solution
 
@@ -101,7 +101,7 @@ const square = (num) => {
 
 ### Review Questions
 
-There's a marathon of review questions at the end of this microlesson. Don't feel like you have to complete all of these with your students together - maybe consider having them quiz each other in breakout rooms? Maybe have them come to a concensus on the questions assigned to them? Anything goes here, do what feels right for your group!
+There's a marathon of review questions at the end of this microlesson. You don't have to complete all of these with your students together - maybe consider having them quiz each other in breakout rooms? Maybe have them come to a consensus on the questions assigned to them? Anything goes here, do what feels right for your group!
 
 ---
 

@@ -2,26 +2,21 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will understand the basic syntax required to create function declarations, and how to invoke a function.
+**Learning objective:** By the end of this lesson, students will understand the basic syntax required to create function declarations and how to invoke a function.
 
-## Function Syntax
+## Function syntax
 
 A _function declaration_ will have the following syntax: 
 
-
-<img src="./assets/function-syntax-1.png" width="100%" alt="basic function declaration syntax">
-
+![Basic function declaration syntax](./assets/function-syntax.png)
 
 1. The `function` keyword.
 2. The name of the function.
-3. The body of the function, indicated by curly braces. 
-<br>
-&nbsp; a. The statements that make up the function itself.
-<br>
-&nbsp; b. Optionally, a return statement.
+3. The body of the function is indicated by curly braces. 
+   - 3a. The statements that make up the function itself.
+   - 3b. Optionally, a `return` statement.
 
-
-## Declaring a Function
+## Declaring a function
 
 A basic function declaration could look something like this:
 
@@ -37,17 +32,21 @@ Let's quickly revisit the syntax:
 
 We start with the `function` keyword.
 
-The name of our function is `printBanner` - it prints a banner! Functions do something, so we name them with doing words. We want to pack as much information as possible into our function names, without being overly wordy. Try to avoid function names like `getSalesDataAndLaborCostsAndMigrateToNewBudgetReportWithItemizedDates()` - sure, it's descriptive, but it's hard to read or recognize at a glance. Also try to avoid a name like `getAllStuff()` - it's non-specific to the point of hiding what the function really does. 
+The name of our function is `printBanner` - it prints a banner! Functions do something, so we name them with words that indicate action (verbs). 
 
-In the body of our function we are logging three lines of text to the console. These would be our statements. 
+We want to pack as much information as possible into our function names without being overly wordy. Try to avoid function names like `getSalesDataAndLaborCostsAndMigrateToNewBudgetReportWithItemizedDates()` - sure, it's descriptive, but it's hard to read or recognize at a glance. Also, try to avoid a name like `getAllStuff()` - it's non-specific to the point of hiding what the function does. 
 
-> 🧠 A quick note on commenting functions: 
-> comments should explain _why_ you chose to solve a task a certain way, not _what_ the code itself is doing. If your code is unclear enough that it requires a comment, it is often best to rewrite the code. Your code should speak for itself, if well-composed. 
+In the body of our function, we are logging three lines of text to the console. These would be our statements. 
 
-## Calling a Function
+> 🧠 A quick note on commenting functions:
+> 
+> Comments should explain *why* you chose to solve a task a certain way, typically not *what* the code is doing. If your code is unclear enough to require a comment, it is often best to rewrite it. Well-composed code should generally speak for itself.
 
-Defining a function **_does not_** execute it. 
-In order to run a function, a function must be called. 
+## Calling a function
+
+Defining a function ***does not*** execute it. 
+
+A function must be called for it to run. 
 
 If we wanted to call the `printBanner()` function from our previous example, we would do so like this:
 
@@ -55,14 +54,15 @@ If we wanted to call the `printBanner()` function from our previous example, we 
 printBanner();
 ```
 
-The console would then log: 
-```
+This text would be printed to the console:
+
+```plain
 =======================
 Insert Banner Text Here
 =======================
 ```
 
-The beauty of functions is their reusability. Now, if we wanted to log this text out twice, rather than having to type out each console log again, we can simply call the function twice: 
+The beauty of functions is their reusability. If we wanted to log this text out twice, rather than having to type out each console log again, we can call the function twice: 
 
 ```javascript
 printBanner();
@@ -84,14 +84,11 @@ Insert Banner Text Here
 Recap: 
 
 ```javascript
-// We define a function to do something
+// We define a function to do something:
 function sayHello(){
   console.log('Hello!');
 }
 
-// And then elsewhere in our code we call the function to run it
-sayHello(); // console logs: Hello!
+// And then elsewhere in our code, we call the function to run it:
+sayHello();
 ```
-
-
-

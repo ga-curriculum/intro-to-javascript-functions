@@ -4,11 +4,11 @@
 
 **Learning objective:** By the end of this lesson, students will be able to declare a function with parameters, call a function with arguments, and apply default parameters. 
 
-## Defining Parameters and Arguments
+## Defining parameters and arguments
 
-Given the current examples, it can be hard to see why functions are so helpful. Certainly it's nice to not have to type console.logs over and over, but if the function is always producing the same result, the usefulness is limited, right? 
+In the examples so far, seeing why functions are so helpful may be difficult. It's nice not to have console.logs over and over, but if a function always produces the same result, the usefulness is limited, right? 
 
-The key thing to understand is that functions are designed to take data input. You might have been wondering why we had an empty set of parentheses in the basic syntax example from earlier: 
+Functions are designed to take data input. You might have been wondering why we had an empty set of parentheses in the basic syntax example from earlier: 
 
 ```javascript
 function name() {
@@ -17,8 +17,9 @@ function name() {
 }
 ```
 
-When writing a function, we can define "placeholders" to accept data that will be input to our function, and these placeholders are known as _parameters_.
-A more complete example of basic function syntax would include parameters, like so: 
+When writing a function, we can define placeholders to accept data that will be input to our function, and these placeholders are known as *parameters*.
+
+A more complete example of basic function syntax would include parameters like so: 
 
 ```javascript
 function name(parameter1, parameter2, ...parameterN) {
@@ -27,43 +28,48 @@ function name(parameter1, parameter2, ...parameterN) {
 }
 ```
 
-> 📚 _Parameters_ are the named variables listed in a function's definition that serve as placeholders for the values that will be passed to the function when it is called. Parameters act like local variables within a function, and can act as placeholders for any kind of data. 
+> 📚 *Parameters* are the named variables listed in a function's definition that serve as placeholders for the values that will be passed to the function when it is called. 
+> 
+> Parameters act like local variables within a function and can act as placeholders for any data. 
 
-Let's look at a slightly refactored version of our `sayHello()` function: 
+Let's add a `name` parameter to our `sayHello()` function and make use of it in the function body: 
 
 ```javascript
-function sayHello(name){
-  console.log('Hello ' + name);
+function sayHello(name) {
+  console.log(`Hello ${name}`);
 }
 ```
 
-What we want this function to do is accept a name value as input, and log out `Hello` plus whatever that name is. When we define this function, we have no way of knowing what name it will be, but that's ok - remember that parameters are placeholders! 
+We want this function to accept a name value as input and log out `'Hello'` along with whatever `name` is. When we define this function, we have no way of knowing what name it will be, but that's okay - remember that parameters are placeholders! 
 
-Now that we've added a `name` parameter, we can use it just like a normal variable. We'll log it in the console, concatenated with a basic greeting. Functions don't run until we call them, so it's ok that `name` is undefined when we are declaring the function.
+Now that we've added a `name` parameter, we can use it like a normal variable. However, right now `name` is undefined. How do we assign a value to `name`?
 
-Now the fun part. Note that when we called our function earlier, we also had empty parentheses following the name: 
+When we called our function earlier, we also had empty parentheses following the name: 
 
 ```javascript
 sayHello();
 ```
 
-In a similar looking process to how we define parameters when creating a function, we can also pass values to a function when we call them. These values are known as _arguments_. 
+Similarly to how we define parameters when creating a function, we can also pass values to a function when we call them. These values are known as *arguments*. 
 
-> 📚 _Arguments_ are the values supplied to a function when it is called, which are then assigned to the corresponding parameters within the function.
+> 📚 *Arguments* are the values supplied to a function when called, which are then assigned to the corresponding parameters within the function.
 
 When we call the `sayHello()` function, we can supply any name (as a string value) as an argument: 
 
 ```javascript
-sayHello('Jim');   // logs: Hello Jim
-sayHello('Emily'); // logs: Hello Emily
-sayHello('Joe');   // logs: Hello Joe
+sayHello('Jim');   
+// Prints: 'Hello Jim'
+sayHello('Emily'); 
+// Prints: 'Hello Emily'
+sayHello('Joe');   
+// Prints: 'Hello Joe'
 ```
 
-This argument corresponds to the `name` parameter in our function, and suddenly `name` is no longer undefined - instead it's now defined with whatever value we supplied as an argument.
+This argument corresponds to the `name` parameter in our function, and suddenly, `name` is no longer undefined. It's now defined with whatever value we supplied as an argument.
 
-Just like that, our function is dynamic! Rather than simply regurgitating the exact same information each time it's invoked, it now changes based on the argument supplied to it. 
+![Arguments are the actual values that are given to the parameters of a function.](./assets/parameters-and-arguments.png)
 
-<br>
+Just like that, our function is dynamic! Rather than regurgitating the same information each time it's invoked, it now changes based on the argument supplied to it.
 
 Finally, let's return briefly to our `printBanner()` example to give it a bit more purpose: 
 
@@ -75,119 +81,86 @@ function printBanner(text) {
 }
 
 printBanner('We can make this banner say anything!');
-printBanner('Huzzah!');
 
+// Prints:
 // ========================
 // We can make this banner say anything!
 // ========================
+```
+
+We can even pass variables to functions:
+
+```javascript
+const phrase = 'say anything!';
+
+printBanner(phrase);
+
+// Prints:
 // ========================
-// Huzzah! 
+// say anything!
 // ========================
 ```
 
-## How to declare a function with parameters
 
-A function can take any number of parameters (from 0 to 255). When defining a function, parameters are added between parentheses and are comma-separated.
+## How to declare a function with multiple parameters
+
+A function can take up to 255 parameters. When defining a function, parameters are added between parentheses and are comma-separated.
 
 Let's declare a new function: 
 
 ```javascript
-function addOne(num) {
-  return num + 1
+function add(numA, numB) {
+  return numA + numB;
 }
 ```
 
-This function is designed to take in a single integer as input. In this example, `num` acts as a placeholder for whatever integer might be passed into the function when it is called.
-
-Try to name your parameters sensibly to avoid confusion, and be mindful of the data types that are passed in. 
-
-Let's look at an example with multiple parameters:
-
-<img src="./assets/diagram1.png" width="600px" alt="diagram of parameters and arguments">
-
-Arguments are assigned to parameters positionally, which is to say the order of parameters and arguments matter. The first argument passed to a function will line up with the first parameter, the second argument will line up with the second parameter, and so forth. 
-
-Parameters become _local variables_ inside the function body, and are only accessible inside the function in which they are defined. Just like when naming variables and functions, it’s vital to name parameters using identifiers that are representative of the data they will hold. 
-
-## Calling a function with arguments
-
-Let's return to the `addOne` function. We would invoke the function like this: 
+Try to name your parameters sensibly to avoid confusion, and be mindful of the data types that are passed in. This function is designed to take in two integers as input. In this example, `numA` and `numB` act as placeholders for whatever integers are passed into the function when called. Let's do that now:
 
 ```javascript
-addOne(3) // returns 4
-```
-Whatever number is supplied to the function when we call it will be passed to the function as `num`. As our function is designed to increment this number by 1, invoking `addOne(3)` returns the number 4.
-
-Changing the argument will likewise change the result:
-
-```javascript
-addOne(99) // returns 100
+add(1, 5);
 ```
 
-Looking at the `add` function we defined earlier:
-```javascript
-function add(numA, numB, numC){
-  return numA + numB + numC
-}
-```
+Arguments are assigned to parameters positionally, which means the order of parameters and arguments matters. The first argument passed to a function will align with the first parameter. The second argument will align with the second parameter, and so forth.
 
-We could call the function like so:
+![A diagram demonstrating that the order arguments are provided to a function matters](./assets/multiple-parameters.png)
 
-```javascript
-add(1, 5, 10) // returns 16
-```
+This mnemonic device may help you remember the difference between an argument and a parameter:
+- ***A***rguments are the ***A***ctual value passed to a function.
+- ***P***arameters are a ***P***laceholder. 
 
-or
+Parameters become local variables inside the function body. They are only accessible inside the function in which they are defined. Just like when naming variables and functions, it's vital to name parameters using identifiers representative of the data they will hold. 
 
-```javascript
-add(1, 1, 1) // returns 3
-```
+## ❓ Review questions 
 
+- What's the difference between an *argument* and a *parameter*?
 
-## Default parameters
+- Explain how *arguments* and *parameters* are matched up.
 
-What if your function requires certain arguments, and you want to provide a default value for the parameter if an argument is not supplied when the function is invoked?
+- Given this code:
 
-No problem - JavaScript has the option to specify _default parameters_. By specifying a default, `name` will always equal 'friend' unless an argument is supplied! This overrides the default behavior of `name` being `undefined` unless passed an argument.
+  ```javascript
+  function add(numA, numB) {
+    return numA + numB;
+  }
 
-```javascript
-function sayHi(name = 'friend'){
-  console.log('Hi ' + name + '!')
-}
-```
+  add(1, 5);
+  ```
+  
+  Will anything be logged to the console? Why or why not?
 
-```javascript
-sayHi() // logs 'Hi friend!'
-```
-
-```javascript
-sayHi('Joe') // logs 'Hi Joe!'
-```
-
-Any expression can be provided as a default, including objects, functions, etc.
-
-
-## Parameter/argument - Review Questions ❓
-
-**❓ What’s the difference between an *argument* and a *parameter*?**
-
-**❓ Explain how *arguments* and *parameters* are “matched up”.**
-
-
-## 🧠 You Do: 
+## 🧠 You Do
 
 Write a function named `planetHasWater`.
 
 It will have one parameter: `planet`.
 
-Log `true` to the console if the `planet` argument is either “Earth” or “Mars”, otherwise log `false`.
+Print `true` to the console if the `planet` argument is either `'Earth'` or `'Mars'`; otherwise, log `false`.
 
 Invoke the function a few times to test it:
 
 ```javascript
-planetHasWater('Earth')   // should log true
-planetHasWater('Venus')   // should log false
-planetHasWater('Mars')    // should log true
-planetHasWater('Jupiter') // should log false
+planetHasWater('Earth');   // should print true
+planetHasWater('Venus');   // should print false
+planetHasWater('Mars');    // should print true
+planetHasWater('Jupiter'); // should print false
 ```
-

@@ -1,20 +1,18 @@
-# Intro to JavaScript Functions - Level Up
+# Intro to JavaScript Functions - Level Up - Fewer Arguments than Parameters
 
 ![Hero image](./assets/hero.png)
 
-## Fewer Arguments Than Parameters Defined
+JavaScript is very flexible and won't complain when the number of arguments differs from the number of parameters defined.
 
-JavaScript is very flexible and won't complain when the number of arguments is not the same as the number of parameters defined.
-
-If fewer arguments are passed than parameters defined, then the parameter variables without a matching argument would be set to undefined.
+If fewer arguments are passed than parameters defined, the parameter variables without a matching argument would be `undefined`.
 
 ```javascript
-function add(a, b, c) {
-  console.log(a, b, c); // 5, 2, undefined
+const add = (numA, numB, numC) => {
+  return numA + numB + numC;
 }
 
-add(5, 2);
-
+console.log(add(5, 2));
+// Prints: NaN
 ```
 
-Unlike some other programming languages, JavaScript won't complain if fewer (or extra) arguments are passed to a function. However, a function that depends on certain arguments to do its job might throw an error or return an unexpected result if it doesn't receive the arguments expected.
+Unlike other programming languages, JavaScript won't complain if fewer (or extra) arguments are passed to a function. However, a function that depends on certain arguments to do its job might throw an error or return an unexpected result, like the example above.

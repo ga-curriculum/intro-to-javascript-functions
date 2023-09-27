@@ -1,20 +1,18 @@
-# Intro to JavaScript Functions - Level Up
+# Intro to JavaScript Functions - Level Up - Nesting Functions
 
 ![Hero image](./assets/hero.png)
 
-## Nesting Functions
+We can define functions within functions!
 
-As the examples above have shown, we can define functions within functions!
-
-Why would we want to do this? Well, Perhaps an outer function needs a “helper” function that would only be relevant only to a given function. It would be good programming practice to “hide” that function from the rest of the program by nesting it within the function that actually needs it.
+Why would we want to do this? An outer function may need a helper function relevant only to a given function. It would be good programming practice to hide that function from the rest of the program by nesting it within the function that needs it.
 
 For example (no need to execute this):
 
 ```javascript
 const title = 'This is the title of my cool book';
 
-function toTitleCase(string){
-  function capitalize(word){
+const toTitleCase = (string) =>{
+  const capitalize = (word) => {
     return word.slice(0,1).toUpperCase() + word.slice(1);
   }
 

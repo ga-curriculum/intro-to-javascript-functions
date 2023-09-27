@@ -60,10 +60,10 @@ Let's practice using this new syntax by converting a function declaration into a
 
 ```javascript
 const sumTwoNumbers = (numA, numB) => {
-  return numA + numB
+  return numA + numB;
 }
 
-const sum = sumTwoNumbers(5, 10)
+const sum = sumTwoNumbers(5, 10);
 ```
 
 1. What is the job of the `sumTwoNumbers` function?
@@ -80,10 +80,10 @@ const sum = sumTwoNumbers(5, 10)
 
 ```javascript
 const emphasize = (str) => {
-  return `${str} ${str}!`
+  return `${str} ${str}!`;
 }
 
-emphasize('really')
+emphasize('really');
 ```
 
 1. What does the `emphasize` function do?

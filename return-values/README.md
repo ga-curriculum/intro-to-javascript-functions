@@ -181,7 +181,7 @@ It will compute the area of a rectangle (*width* * *height*) and return a string
 Invoke the function to test it:
 
 ```javascript
-console.log(computeArea(5, 25))
+console.log(computeArea(5, 25));
 // Prints: 
 // The area of a rectangle with a width of 5 
 // and a height of 25 is 125 square units.

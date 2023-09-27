@@ -8,7 +8,7 @@ A *function* is a reusable block of code written to perform a single purpose. Wi
 
 ![A function, taking in a block as input and outputting a star](./assets/function-input-output.png)
 
-Functions optionally take in data as _input_ and return a single piece of data (including complex data such as objects or other functions).
+Functions optionally take in data as input and return a single piece of data (including complex data such as objects or other functions).
 
 > 📚 A *function* is a block of code that can be called as needed and is designed to perform a specific task. A function may accept input and can return a result after completing its task.
 

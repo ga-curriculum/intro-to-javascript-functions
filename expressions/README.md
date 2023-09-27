@@ -54,7 +54,7 @@ const add = function(a, b) {
 }
 
 // called using the variable name:
-add(4, 2)
+add(4, 2);
 ```
 
 > 🚀 Another key difference is that function expressions cannot be invoked before they are defined. Check out the [Hoisting Level Up](../level-up/hoisting.md) for more.

@@ -8,7 +8,7 @@ JavaScript has the option to specify *default parameters*. By specifying a defau
 
 ```javascript
 const sayHi = (name = 'friend') => {
-  console.log('Hi ' + name + '!');
+  console.log(`Hi ${name}!`);
 }
 ```
 

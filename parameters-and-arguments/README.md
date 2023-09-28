@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to declare a function with parameters, call a function with arguments, and apply default parameters. 
+**Learning objective:** By the end of this lesson, students will be able to declare a function with parameters and call a function with arguments.
 
 ## Defining parameters and arguments
 

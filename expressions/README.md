@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create function expressions with appropriate syntax and naming conventions.
+**Learning objective:** By the end of this lesson, students will understand the difference between function declarations and expressions. 
 
 ## Syntax
 

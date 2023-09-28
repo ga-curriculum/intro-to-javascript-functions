@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will understand the basic syntax required to create function declarations and how to invoke a function.
+**Learning objective:** By the end of this lesson, students will compose function declarations and function expressions with appropriate syntax and naming convention.
 
 ## Function syntax
 

@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to use the `return` statement to return a value from a function.
+**Learning objective:** By the end of this lesson, students will be able to return data from functions using the `return` statement.
 
 ## What is a return value?
 

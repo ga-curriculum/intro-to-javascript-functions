@@ -14,8 +14,8 @@ This module introduces functions in JavaScript. Functions are essential for reus
 | [Concepts](./concepts/README.md)                                 | --- | --- | Clearly define the concept and significance of functions in JavaScript.                               |
 | [Fundamentals](./fundamentals/README.md)                         | --- | --- | Compose function declarations and function expressions with appropriate syntax and naming convention. |
 | [Parameters and Arguments](./parameters-and-arguments/README.md) | --- | --- | Declare a function with parameters and call a function with arguments.                                |
-| [Return Values](./return-values/README.md)                       | --- | --- | Work with functions that return data.                                                                 |
-| [Expressions](./expressions/README.md)                           | --- | --- | Understand and work with function expressions.                                                        |
+| [Return Values](./return-values/README.md)                       | --- | --- | Return data from functions using the `return` statement.                                              |
+| [Expressions](./expressions/README.md)                           | --- | --- | Understand the difference between function declarations and expressions.                              |
 | [Arrow Function Expressions](./arrow-functions/README.md)        | --- | --- | Compose functions using arrow function syntax.                                                        | 
 |  **Total Module**                                                | --- | --- | ---                                                                                                   |
 
@@ -32,7 +32,7 @@ This module introduces functions in JavaScript. Functions are essential for reus
 - [Fewer Arguments than Parameters](./level-up/fewer-arguments.md)
 - [More Arguments than Parameters](./level-up/extra-arguments.md) 
 - [Rest Parameters](./level-up/rest-parameters.md) 
-- [Immediately Invoked Function Expressions](./level-up/iife.md) 
+- [Immediately Invoked Function Expressions (IIFE)](./level-up/iife.md) 
 - [Nesting Functions](./level-up/nesting-functions.md) 
 
 ## Internal resources

@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to compose arrow function expressions.
+**Learning objective:** By the end of this lesson, students will be able to compose functions using arrow function syntax.
 
 ## Syntax
 

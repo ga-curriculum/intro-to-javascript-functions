@@ -8,8 +8,8 @@ This module introduces functions in JavaScript. Functions are essential for reus
 
 ## Content outline
 
-| Lesson | Video Time | Video | Learning Objectives |
-| ------ |:----------:|:-----:| ------------------- |
+| Lesson | Video Time | Video | Topics Covered |
+| ------ |:----------:|:-----:| -------------- |
 | [Setup](./setup/README.md)                                       | --- | --- | ---                                                                                                   |
 | [Concepts](./concepts/README.md)                                 | --- | --- | Clearly define the concept and significance of functions in JavaScript.                               |
 | [Fundamentals](./fundamentals/README.md)                         | --- | --- | Compose function declarations and function expressions with appropriate syntax and naming convention. |

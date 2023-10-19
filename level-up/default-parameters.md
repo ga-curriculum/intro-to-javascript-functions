@@ -1,6 +1,6 @@
 # Intro to JavaScript Functions - Level Up - Default Parameters
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-default-parameters.png)
 
 What if your function ***requires*** certain arguments, and you want to provide a default value for the parameter if an argument is not supplied when the function is invoked?
 

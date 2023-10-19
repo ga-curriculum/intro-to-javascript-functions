@@ -1,6 +1,6 @@
 # Intro to JavaScript Functions - Level Up - More Arguments than Parameters
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-more-arguments-than-parameters.png)
 
 Let's pretend you need to write a function that accepts an unknown number of arguments. For example, let's say we would like to provide any number of "time" arguments to a getPointsScored function and return a total number of points scored.
 

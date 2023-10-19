@@ -1,6 +1,6 @@
 # Intro to JavaScript Functions - Level Up - Hoisting
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-hoisting.png)
 
 Function declarations (and, by extension, arrow functions) cannot be invoked before they are defined. 
 

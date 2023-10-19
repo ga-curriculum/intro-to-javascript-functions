@@ -1,6 +1,6 @@
 # Intro to JavaScript Functions - Level Up - Fewer Arguments than Parameters
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-fewer-arguments-than-parameters.png)
 
 JavaScript is very flexible and won't complain when the number of arguments differs from the number of parameters defined.
 

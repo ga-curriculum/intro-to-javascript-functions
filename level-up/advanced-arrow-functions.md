@@ -1,6 +1,6 @@
 # Intro to JavaScript Functions - Level Up - Advanced Arrow Functions
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-advanced-arrow-functions.png)
 
 ## Implicit return
 

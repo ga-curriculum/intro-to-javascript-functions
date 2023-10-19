@@ -1,6 +1,6 @@
 # Intro to JavaScript Functions - Level Up - Nesting Functions
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-nesting-functions.png)
 
 We can define functions within functions!
 

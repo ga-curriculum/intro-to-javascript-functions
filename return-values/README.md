@@ -1,6 +1,4 @@
-# Intro the JS Functions - Return Values
-
-![Hero image](./assets/hero.png)
+# ![Intro the JS Functions - Return Values](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to return data from functions using the `return` statement.
 

@@ -1,6 +1,4 @@
-# Intro to JavaScript Functions - References
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Functions - References](./assets/hero.png)
 
 ## Lesson references
 

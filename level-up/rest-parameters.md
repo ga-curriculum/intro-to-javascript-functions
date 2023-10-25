@@ -1,6 +1,6 @@
-# Intro to JavaScript Functions - Level Up - Rest Parameters
+# ![Intro to JavaScript Functions - Level Up - Rest Parameters](./assets/hero-rest-parameters.png)
 
-![Hero image](./assets/hero-rest-parameters.png)
+**Learning Objective:**By the end of this lesson, the learner will be able to implement rest parameters in JavaScript functions to dynamically accept any number of arguments and manipulate them as a single array.
 
 The [rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) syntax allows a function to accept any number of arguments as a named array. The syntax is identical to the [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax). While the spread operator expands an array into its elements, the rest syntax does the opposite, taking multiple arguments and condensing them into a single array.
 

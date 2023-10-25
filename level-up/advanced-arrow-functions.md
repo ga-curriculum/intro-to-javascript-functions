@@ -1,6 +1,6 @@
-# Intro to JavaScript Functions - Level Up - Advanced Arrow Functions
+# ![Intro to JavaScript Functions - Level Up - Advanced Arrow Functions](./assets/hero-advanced-arrow-functions.png)
 
-![Hero image](./assets/hero-advanced-arrow-functions.png)
+**Learning Objective:** By the end of this lesson, students will be able to optimize arrow functions through the use of implicit returns and single parameter syntax, while understanding the limitations associated with the `this` keyword.
 
 ## Implicit return
 

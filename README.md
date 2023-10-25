@@ -1,39 +1,45 @@
-# Intro to JavaScript Functions
+# ![Intro to JavaScript Functions](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
+## About
 
-## Module overview
+This module provides a comprehensive introduction to functions in JavaScript, aimed at learners who are just starting out or wish to solidify their foundational knowledge. Starting with basic concepts, it gradually advances into more complex topics, ensuring a well-rounded understanding of how functions operate in the language. Each lesson is designed to offer both theoretical knowledge and hands-on skills, making it a versatile resource for a range of learning needs.
 
-This module introduces functions in JavaScript. Functions are essential for reusable code and effective programming. Learn to define, invoke, and understand various types of functions to enhance your JavaScript language skills.
+## Prerequisites 
 
-## Content outline
+ - Intro to Javascript
+ - Control Flow in Javascript
 
-| Lesson | Video Time | Video | Topics Covered |
-| ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md)                                       | --- | --- | ---                                                                                                   |
-| [Concepts](./concepts/README.md)                                 | --- | --- | Clearly define the concept and significance of functions in JavaScript.                               |
-| [Fundamentals](./fundamentals/README.md)                         | --- | --- | Compose function declarations and function expressions with appropriate syntax and naming convention. |
-| [Parameters and Arguments](./parameters-and-arguments/README.md) | --- | --- | Declare a function with parameters and call a function with arguments.                                |
-| [Return Values](./return-values/README.md)                       | --- | --- | Return data from functions using the `return` statement.                                              |
-| [Expressions](./expressions/README.md)                           | --- | --- | Understand the difference between function declarations and expressions.                              |
-| [Arrow Function Expressions](./arrow-functions/README.md)        | --- | --- | Compose functions using arrow function syntax.                                                        | 
-|  **Total Module**                                                | --- | --- | ---                                                                                                   |
+## Content
 
-## Additional content 
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
+| [Setup](./setup/README.md)                                       | -- | -- | --                                                                                             |
+| [Concepts](./concepts/README.md)                                 | -- | -- | Define the concept of functions in JavaScript                                                   |
+| [Fundamentals](./fundamentals/README.md)                         | -- | -- | Create function declarations and expressions with appropriate syntax and naming conventions     |
+| [Parameters and Arguments](./parameters-and-arguments/README.md) | -- | -- | Declaring and invoking functions with parameters and arguments                                  |
+| [Return Values](./return-values/README.md)                       | -- | -- | Using the `return` statement, storing returned values, introduction to helper functions         |
+| [Expressions](./expressions/README.md)                           | -- | -- | Function declarations vs. function expressions, anonymous functions, variable assignment        |
+| [Arrow Function Expressions](./arrow-functions/README.md)        | -- | -- | Composing Arrow functions                                                                       | 
+|  **Total Module**                                                | -- | -- |    |
+
+## Level Up content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
+| [Advanced Arrow Functions](./level-up/advanced-arrow-functions.md) | -- | -- | Implicit returns, single parameter syntax, and arrow function limitations with 'this' keyword. |
+| [Default Parameters](./level-up/default-parameters.md)| -- | -- | Implementing default parameters in JavaScript functions |
+| [Hoisting](./level-up/hoisting.md)| -- | -- | Understanding function hoisting, differences between function declarations and expressions |
+| [Functions as Arguments](./level-up/functions-as-arguments.md) | -- | -- | Understanding functions as first-class citizens in JavaScript; passing and using functions as arguments |
+| [Fewer Arguments than Parameters](./level-up/fewer-arguments.md)| -- | -- | Handling fewer arguments in functions, undefined parameters |
+| [More Arguments than Parameters](./level-up/extra-arguments.md) | -- | -- | Handling dynamic argument count using rest parameters |
+| [Rest Parameters](./level-up/rest-parameters.md) | -- | -- | Using rest parameters to handle multiple function arguments as an array |
+| [Immediately Invoked Function Expressions (IIFE)](./level-up/iife.md) | -- | -- | Using IIFEs for variable encapsulation and global scope prevention |
+| [Nesting Functions](./level-up/nesting-functions.md) | -- | -- | Nesting functions and creating helper functions within main functions |
+|  **Bonus**                                                | -- | -- |    |
+
+## References 
 
 📖 [Reference Materials](./references/README.md)
-
-### 🚀 Level Up
-
-- [Advanced Arrow Functions](./level-up/advanced-arrow-functions.md)
-- [Default Parameters](./level-up/default-parameters.md)
-- [Hoisting](./level-up/hoisting.md)
-- [Functions as Arguments](./level-up/functions-as-arguments.md) 
-- [Fewer Arguments than Parameters](./level-up/fewer-arguments.md)
-- [More Arguments than Parameters](./level-up/extra-arguments.md) 
-- [Rest Parameters](./level-up/rest-parameters.md) 
-- [Immediately Invoked Function Expressions (IIFE)](./level-up/iife.md) 
-- [Nesting Functions](./level-up/nesting-functions.md) 
 
 ## Internal resources
 

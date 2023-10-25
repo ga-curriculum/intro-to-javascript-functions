@@ -1,6 +1,6 @@
-# Intro to JavaScript Functions - Level Up - Default Parameters
+# ![Intro to JavaScript Functions - Level Up - Default Parameters](./assets/hero-default-parameters.png)
 
-![Hero image](./assets/hero-default-parameters.png)
+**Learning Objective:** By the end of this lesson, students will be able to implement default parameters in JavaScript functions to handle missing arguments.
 
 What if your function ***requires*** certain arguments, and you want to provide a default value for the parameter if an argument is not supplied when the function is invoked?
 

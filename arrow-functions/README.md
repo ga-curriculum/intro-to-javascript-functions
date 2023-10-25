@@ -1,8 +1,6 @@
-# Intro the JS Functions - Arrow Function Expressions
+# ![Intro the JS Functions - Arrow Function Expressions](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be able to compose functions using arrow function syntax.
+**Learning objective:** By the end of this lesson, students will be capable of converting traditional function expressions into arrow function expressions and explain the syntactical differences between the two.
 
 ## Syntax
 

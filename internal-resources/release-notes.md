@@ -1,6 +1,4 @@
-# Intro to JavaScript Functions - Release Notes
-
-![Hero image](./assets/hero-release-notes.png)
+# ![Intro to JavaScript Functions - Release Notes](./assets/hero-release-notes.png)
 
 ## Version 1.0 - Updates from legacy content
 

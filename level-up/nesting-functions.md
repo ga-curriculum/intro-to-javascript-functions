@@ -1,6 +1,6 @@
-# Intro to JavaScript Functions - Level Up - Nesting Functions
+# ![Intro to JavaScript Functions - Level Up - Nesting Functions](./assets/hero-nesting-functions.png)
 
-![Hero image](./assets/hero-nesting-functions.png)
+**Learning Objective:** By the end of this lesson, the student will be able to implement nested functions to create helper functions that simplify complex tasks within a main function.
 
 We can define functions within functions!
 

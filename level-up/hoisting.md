@@ -1,6 +1,6 @@
-# Intro to JavaScript Functions - Level Up - Hoisting
+# ![Intro to JavaScript Functions - Level Up - Hoisting](./assets/hero-hoisting.png)
 
-![Hero image](./assets/hero-hoisting.png)
+**Learning Objective:** By the end of this lesson, students will be able to distinguish between function declarations and function expressions in the context of JavaScript hoisting, and demonstrate how to correctly invoke functions based on their hoisting behavior.
 
 Function declarations (and, by extension, arrow functions) cannot be invoked before they are defined. 
 

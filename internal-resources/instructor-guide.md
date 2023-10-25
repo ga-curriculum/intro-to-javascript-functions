@@ -1,6 +1,4 @@
-# Intro to JavaScript Functions - Instructor Guide
-
-![Hero image](./assets/hero-instructor-guide.png)
+# ![Intro to JavaScript Functions - Instructor Guide](./assets/hero-instructor-guide.png)
 
 ## Overview
 

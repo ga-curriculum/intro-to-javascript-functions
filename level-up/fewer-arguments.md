@@ -1,6 +1,6 @@
-# Intro to JavaScript Functions - Level Up - Fewer Arguments than Parameters
+# ![Intro to JavaScript Functions - Level Up - Fewer Arguments than Parameters](./assets/hero-fewer-arguments-than-parameters.png)
 
-![Hero image](./assets/hero-fewer-arguments-than-parameters.png)
+**Learning Objective:** By the end of this lesson, the learner will be able to identify and explain the behavior of JavaScript functions when invoked with fewer arguments than the defined parameters, including how missing arguments default to undefined.
 
 JavaScript is very flexible and won't complain when the number of arguments differs from the number of parameters defined.
 

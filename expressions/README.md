@@ -1,8 +1,6 @@
-# Intro to JavaScript Functions - Expressions
+# ![Intro to JavaScript Functions - Expressions](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will understand the difference between function declarations and expressions. 
+**Learning objective:** By the end of this lesson, students will be able to differentiate between function declarations and function expressions, and apply function expressions in code using anonymous functions. 
 
 ## Syntax
 

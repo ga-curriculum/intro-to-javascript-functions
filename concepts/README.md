@@ -1,6 +1,6 @@
-# Intro to JavaScript Functions - Concepts
+# ![Intro to JavaScript Functions - Concepts](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
+**Learning Objective:** By the end of this lesson, the learner will be able to explain how JavaScript functions can simplify complex tasks and promote code reusability.
 
 ## What is a function? 
 

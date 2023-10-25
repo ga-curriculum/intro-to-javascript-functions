@@ -1,8 +1,6 @@
-# Intro to JavaScript Functions - Parameters and Arguments
+# ![Intro to JavaScript Functions - Parameters and Arguments](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be able to declare a function with parameters and call a function with arguments.
+**Learning objective:** By the end of this lesson, students will be able to declare a function with parameters and call a function using arguments.
 
 ## Defining parameters and arguments
 

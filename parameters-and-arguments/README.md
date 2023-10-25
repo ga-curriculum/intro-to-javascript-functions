@@ -146,7 +146,7 @@ Parameters become local variables inside the function body. They are only access
   
   Will anything be logged to the console? Why or why not?
 
-## 🧠 You Do
+## You Do
 
 Write a function named `planetHasWater`.
 

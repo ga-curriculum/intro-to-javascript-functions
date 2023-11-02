@@ -20,7 +20,7 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 | [Return Values](./return-values/README.md)                       | -- | -- | Using the `return` statement, storing returned values, introduction to helper functions         |
 | [Expressions](./expressions/README.md)                           | -- | -- | Function declarations vs. function expressions, anonymous functions, variable assignment        |
 | [Arrow Function Expressions](./arrow-functions/README.md)        | -- | -- | Composing Arrow functions                                                                       | 
-|  **Total Module**                                                | -- | -- |    |
+| **Total Content**                                                 | -- | -- |    |
 
 ## Level Up content
 
@@ -29,13 +29,11 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 | [Advanced Arrow Functions](./level-up/advanced-arrow-functions.md) | -- | -- | Implicit returns, single parameter syntax, and arrow function limitations with 'this' keyword. |
 | [Default Parameters](./level-up/default-parameters.md)| -- | -- | Implementing default parameters in JavaScript functions |
 | [Hoisting](./level-up/hoisting.md)| -- | -- | Understanding function hoisting, differences between function declarations and expressions |
-| [Functions as Arguments](./level-up/functions-as-arguments.md) | -- | -- | Understanding functions as first-class citizens in JavaScript; passing and using functions as arguments |
 | [Fewer Arguments than Parameters](./level-up/fewer-arguments.md)| -- | -- | Handling fewer arguments in functions, undefined parameters |
-| [More Arguments than Parameters](./level-up/extra-arguments.md) | -- | -- | Handling dynamic argument count using rest parameters |
 | [Rest Parameters](./level-up/rest-parameters.md) | -- | -- | Using rest parameters to handle multiple function arguments as an array |
 | [Immediately Invoked Function Expressions (IIFE)](./level-up/iife.md) | -- | -- | Using IIFEs for variable encapsulation and global scope prevention |
 | [Nesting Functions](./level-up/nesting-functions.md) | -- | -- | Nesting functions and creating helper functions within main functions |
-|  **Bonus**                                                | -- | -- |    |
+|  **Total Level Up content**                                                | -- | -- |    |
 
 ## References 
 

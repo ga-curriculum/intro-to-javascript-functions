@@ -13,7 +13,7 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                                       | -- | -- | --                                                                                             |
+| [Setup](./setup/README.md)                                       | -- | -- | Setting up the development environment           |
 | [Concepts](./concepts/README.md)                                 | -- | -- | Define the concept of functions in JavaScript                                                   |
 | [Fundamentals](./fundamentals/README.md)                         | -- | -- | Create function declarations and expressions with appropriate syntax and naming conventions     |
 | [Parameters and Arguments](./parameters-and-arguments/README.md) | -- | -- | Declaring and invoking functions with parameters and arguments                                  |

@@ -13,27 +13,27 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                                       | -- | -- | Setting up the development environment           |
+| [Setup](./setup/README.md)                                       | -- | -- | Setting up the development environment                                                          |
 | [Concepts](./concepts/README.md)                                 | -- | -- | Define the concept of functions in JavaScript                                                   |
 | [Fundamentals](./fundamentals/README.md)                         | -- | -- | Create function declarations and expressions with appropriate syntax and naming conventions     |
 | [Parameters and Arguments](./parameters-and-arguments/README.md) | -- | -- | Declaring and invoking functions with parameters and arguments                                  |
 | [Return Values](./return-values/README.md)                       | -- | -- | Using the `return` statement, storing returned values, introduction to helper functions         |
 | [Expressions](./expressions/README.md)                           | -- | -- | Function declarations vs. function expressions, anonymous functions, variable assignment        |
 | [Arrow Function Expressions](./arrow-functions/README.md)        | -- | -- | Composing Arrow functions                                                                       | 
-| **Total Content**                                                 | -- | -- |    |
+| **Total Content**                                                | -- | -- |                                                                                                 |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Advanced Arrow Functions](./level-up/advanced-arrow-functions.md) | -- | -- | Implicit returns, single parameter syntax, and arrow function limitations with 'this' keyword. |
-| [Default Parameters](./level-up/default-parameters.md)| -- | -- | Implementing default parameters in JavaScript functions |
-| [Hoisting](./level-up/hoisting.md)| -- | -- | Understanding function hoisting, differences between function declarations and expressions |
-| [Fewer Arguments than Parameters](./level-up/fewer-arguments.md)| -- | -- | Handling fewer arguments in functions, undefined parameters |
-| [Rest Parameters](./level-up/rest-parameters.md) | -- | -- | Using rest parameters to handle multiple function arguments as an array |
-| [Immediately Invoked Function Expressions (IIFE)](./level-up/iife.md) | -- | -- | Using IIFEs for variable encapsulation and global scope prevention |
-| [Nesting Functions](./level-up/nesting-functions.md) | -- | -- | Nesting functions and creating helper functions within main functions |
-|  **Total Level Up content**                                                | -- | -- |    |
+| [Advanced Arrow Functions](./level-up/advanced-arrow-functions.md)    | -- | -- | Implicit returns, single parameter syntax, and arrow function limitations with 'this' keyword  |
+| [Default Parameters](./level-up/default-parameters.md)                | -- | -- | Implementing default parameters in JavaScript functions                                        |
+| [Hoisting](./level-up/hoisting.md)                                    | -- | -- | Understanding function hoisting, differences between function declarations and expressions     |
+| [Fewer Arguments than Parameters](./level-up/fewer-arguments.md)      | -- | -- | Handling fewer arguments in functions, undefined parameters                                    |
+| [Rest Parameters](./level-up/rest-parameters.md)                      | -- | -- | Using rest parameters to handle multiple function arguments as an array                        |
+| [Immediately Invoked Function Expressions (IIFE)](./level-up/iife.md) | -- | -- | Using IIFEs for variable encapsulation and global scope prevention                             |
+| [Nesting Functions](./level-up/nesting-functions.md)                  | -- | -- | Nesting functions and creating helper functions within main functions                          |
+| **Total Level Up content**                                            | -- | -- |                                                                                                |
 
 ## References 
 

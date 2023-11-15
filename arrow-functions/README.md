@@ -38,7 +38,7 @@ Arrow function expressions offer a more concise syntax compared to function expr
 
 > 🚀 Arrow functions have a couple of cool and unique twists that can make them even more concise. Check out the [Advanced Arrow Functions Level Up](../level-up/advanced-arrow-functions.md) for more.
 
-## You Do
+## 🎓 You Do
 
 Let's practice using this new syntax by converting a function declaration into an arrow function expression.
 

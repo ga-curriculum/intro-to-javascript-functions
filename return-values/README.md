@@ -166,7 +166,7 @@ Despite `compileAndSend` being quite a large function with a lot of code, the he
 
 All of this is possible because we're storing the return values of each of these helper functions!
 
-## You Do
+## 🎓 You Do
 
 Write a function named `computeArea`.
 

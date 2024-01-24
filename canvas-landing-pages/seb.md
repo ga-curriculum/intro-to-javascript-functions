@@ -15,7 +15,6 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 | [Return Values](../return-values/README.md)                       | Using the `return` statement, storing returned values, introduction to helper functions          |
 | [Expressions](../expressions/README.md)                           | Function declarations vs. function expressions, anonymous functions, variable assignment        |
 | [Arrow Function Expressions](../arrow-functions/README.md)        | Composing Arrow functions                                                                       | 
-| **Total Content**                                                |                                                                                                 |
 
 ## Level Up content
 
@@ -28,7 +27,6 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 | [Rest Parameters](../level-up/rest-parameters.md)                      | Using rest parameters to handle multiple function arguments as an array                        |
 | [Immediately Invoked Function Expressions (IIFE)](../level-up/iife.md) | Using IIFEs for variable encapsulation and global scope prevention                             |
 | [Nesting Functions](../level-up/nesting-functions.md)                  | Nesting functions and creating helper functions within main functions                          |
-| **Total Level Up content**                                            |                                                                                                |
 
 ## References 
 

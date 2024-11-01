@@ -1,0 +1,102 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = ""
+}
+
+fundamentals = new Template.Microlesson {
+  friendlyName = "Fundamentals"
+  dirName = "fundamentals"
+  type = "Content"
+  videoUrl = ""
+}
+
+parametersAndArguments = new Template.Microlesson {
+  friendlyName = "Parameters and Arguments"
+  dirName = "parameters-and-arguments"
+  type = "Content"
+  videoUrl = ""
+}
+
+returnValues = new Template.Microlesson {
+  friendlyName = "Return Values"
+  dirName = "return-values"
+  type = "Content"
+  videoUrl = ""
+}
+
+expressions = new Template.Microlesson {
+  friendlyName = "Expressions"
+  dirName = "expressions"
+  type = "Content"
+  videoUrl = ""
+}
+
+arrowFunctions = new Template.Microlesson {
+  friendlyName = "Arrow Functions"
+  dirName = "arrow-functions"
+  type = "Content"
+  videoUrl = ""
+}
+
+advancedArrowFunctions = new Template.Microlesson {
+  friendlyName = "Advanced Arrow Functions"
+  dirName = "advanced-arrow-functions"
+  type = "Content"
+  videoUrl = ""
+}
+
+defaultParameters = new Template.Microlesson {
+  friendlyName = "Default Parameters"
+  dirName = "default-parameters"
+  type = "Content"
+  videoUrl = ""
+}
+
+hoisting = new Template.Microlesson {
+  friendlyName = "Hoisting"
+  dirName = "hoisting"
+  type = "Content"
+  videoUrl = ""
+}
+
+fewerArguments = new Template.Microlesson {
+  friendlyName = "Fewer Arguments than Parameters"
+  dirName = "fewer-arguments"
+  type = "Content"
+  videoUrl = ""
+}
+
+restParameters = new Template.Microlesson {
+  friendlyName = "Rest Parameters"
+  dirName = "rest-parameters"
+  type = "Content"
+  videoUrl = ""
+}
+
+iife = new Template.Microlesson {
+  friendlyName = "Immediately Invoked Function Expressions IIFEs"
+  dirName = "iife"
+  type = "Content"
+  videoUrl = ""
+}
+
+nestingFunctions = new Template.Microlesson {
+  friendlyName = "Nesting Functions"
+  dirName = "nesting-functions"
+  type = "Content"
+  videoUrl = ""
+}
+

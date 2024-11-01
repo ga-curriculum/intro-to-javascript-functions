@@ -1,4 +1,7 @@
-# ![Intro the JS Functions - Arrow Function Expressions](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Functions</span>
+  <span class="subhead">Arrow Functions</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be capable of converting traditional function expressions into arrow function expressions and explain the syntactical differences between the two.
 
@@ -34,9 +37,6 @@ Arrow function expressions offer a more concise syntax compared to function expr
    - 5a. The statements that make up the function itself.
    - 5b. Optionally, a `return` statement.
 
-
-
-> 🚀 Arrow functions have a couple of cool and unique twists that can make them even more concise. Check out the [Advanced Arrow Functions Level Up](../level-up/advanced-arrow-functions.md) for more.
 
 ## 🎓 You Do
 

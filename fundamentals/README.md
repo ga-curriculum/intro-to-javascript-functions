@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Functions - Fundamentals](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Functions</span>
+  <span class="subhead">Fundamentals</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will compose function declarations and function expressions with appropriate syntax and naming conventions.
 

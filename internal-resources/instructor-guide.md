@@ -1,13 +1,17 @@
-# ![Intro to JavaScript Functions - Instructor Guide](./assets/hero-instructor-guide.png)
+<h1>
+  <span class="headline">Intro to JavaScript Functions</span>
+  <span class="subhead">Instructor Guide</span>
+</h1>
 
 ## Overview
 
 In this content students will build:
+
 - Function declarations
 - Function expressions
 - Arrow function expressions
 
-The remainder of the JavaScript content uses arrow function expressions wherever possible, but given that students will frequently encounter these three types, the syntax for all of them are presented in this module. 
+The remainder of the JavaScript content uses arrow function expressions wherever possible, but given that students will frequently encounter these three types, the syntax for all of them are presented in this module.
 
 ## Parameters and Arguments You Do solution
 
@@ -22,9 +26,9 @@ function planetHasWater(planet) {
   }
 }
 
-planetHasWater('Earth');   // should print true
-planetHasWater('Venus');   // should print false
-planetHasWater('Mars');    // should print true
+planetHasWater('Earth'); // should print true
+planetHasWater('Venus'); // should print false
+planetHasWater('Mars'); // should print true
 planetHasWater('Jupiter'); // should print false
 ```
 
@@ -32,7 +36,7 @@ planetHasWater('Jupiter'); // should print false
 
 In the [Return Values](../return-values/README.md) content, there is a `compileAndSend` function that has a collection of helper functions:
 
-```javascript 
+```javascript
 function compileAndSend() {
   let sales = getSalesData();
   let labor = getLaborCosts();
@@ -42,7 +46,7 @@ function compileAndSend() {
 }
 
 // Run the function
-compileAndSend()
+compileAndSend();
 
 /*--- helper functions ---*/
 
@@ -71,7 +75,7 @@ function sendReport(report) {
 }
 ```
 
-This is intended to be a high-level view of how functions can be written to create larger applications. It is exceptionally hand-wavey to details. 
+This is intended to be a high-level view of how functions can be written to create larger applications. It is exceptionally hand-wavey to details.
 
 This is not intended to be an exercise in writing code that would calculate sales data, labor costs, or budgets. It only demonstrates how writing many smaller functions and composing them together can create code that is easier to read and understand at a high level.
 
@@ -87,8 +91,8 @@ function computeArea(width, height) {
 }
 
 console.log(computeArea(5, 25));
-// Prints: 
-// The area of a rectangle with a width of 5 
+// Prints:
+// The area of a rectangle with a width of 5
 // and a height of 25 is 125 square units.
 ```
 
@@ -103,7 +107,7 @@ A potential solution to this You Do is:
 ```javascript
 const square = (num) => {
   return num * num;
-}
+};
 ```
 
 ### Review Questions
@@ -116,4 +120,4 @@ There's a marathon of review questions at the end of this microlesson. You don't
 
 We are constantly working to improve our resources for instructors and students.
 
-Have something to contribute to this Instructor Guide? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md).
+**Have something to contribute to this Instructor Guide?** [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback).

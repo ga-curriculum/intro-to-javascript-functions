@@ -1,3 +1,4 @@
+<!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix"></span>
   <span class="headline">Intro to JavaScript Functions</span>
@@ -9,20 +10,15 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 
 ## Content
 
-| Lesson                                                            | Skills                                                                                      |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [Setup](../setup/README.md)                                       | Setting up the development environment                                                      |
-| [Concepts](../concepts/README.md)                                 | Define the concept of functions in JavaScript                                               |
-| [Fundamentals](../fundamentals/README.md)                         | Create function declarations and expressions with appropriate syntax and naming conventions |
-| [Parameters and Arguments](../parameters-and-arguments/README.md) | Declaring and invoking functions with parameters and arguments                              |
-| [Return Values](../return-values/README.md)                       | Using the `return` statement, storing returned values, introduction to helper functions     |
-| [Expressions](../expressions/README.md)                           | Function declarations vs. function expressions, anonymous functions, variable assignment    |
-| [Arrow Function Expressions](../arrow-functions/README.md)        | Composing Arrow functions                                                                   |
-
-## Level Up content
-
 | Lesson                                                               | Skills                                                                                        |
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [Setup](../setup/README.md)                                          | Setting up the development environment                                                        |
+| [Concepts](../concepts/README.md)                                    | Define the concept of functions in JavaScript                                                 |
+| [Fundamentals](../fundamentals/README.md)                            | Create function declarations and expressions with appropriate syntax and naming conventions   |
+| [Parameters and Arguments](../parameters-and-arguments/README.md)    | Declaring and invoking functions with parameters and arguments                                |
+| [Return Values](../return-values/README.md)                          | Using the `return` statement, storing returned values, introduction to helper functions       |
+| [Expressions](../expressions/README.md)                              | Function declarations vs. function expressions, anonymous functions, variable assignment      |
+| [Arrow Function Expressions](../arrow-functions/README.md)           | Composing Arrow functions                                                                     |
 | [Advanced Arrow Functions](../advanced-arrow-functions/README.md)    | Implicit returns, single parameter syntax, and arrow function limitations with `this` keyword |
 | [Default Parameters](../default-parameters/README.md)                | Implementing default parameters in JavaScript functions                                       |
 | [Hoisting](../hoisting/README.md)                                    | Understanding function hoisting, differences between function declarations and expressions    |

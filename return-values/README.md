@@ -1,4 +1,7 @@
-# ![Intro the JS Functions - Return Values](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Functions</span>
+  <span class="subhead">Return Values</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to return data from functions using the `return` statement.
 

@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Functions - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Functions</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
@@ -6,11 +9,11 @@ Open your Terminal application and navigate to your `~/code/ga/lectures` directo
 cd ~/code/ga/lectures
 ```
 
-Make a new directory called `js-functions`, then enter this directory:
+Make a new directory called `intro-to-javascript-functions`, then enter this directory:
 
 ```bash
-mkdir js-functions
-cd js-functions
+mkdir intro-to-javascript-functions
+cd intro-to-javascript-functions
 ```
 
 Then, create an `app.js` and an `index.html` file. These files will hold your work for this lecture:

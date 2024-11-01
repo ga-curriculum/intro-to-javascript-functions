@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Functions - Concepts](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Functions</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning Objective:** By the end of this lesson, the learner will be able to explain how JavaScript functions can simplify complex tasks and promote code reusability.
 

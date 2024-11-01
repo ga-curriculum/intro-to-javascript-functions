@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Functions - Expressions](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Functions</span>
+  <span class="subhead">Expressions</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to differentiate between function declarations and function expressions, and apply function expressions in code using anonymous functions. 
 
@@ -55,4 +58,3 @@ const add = function(a, b) {
 add(4, 2);
 ```
 
-> 🚀 Another key difference is that function expressions cannot be invoked before they are defined. Check out the [Hoisting Level Up](../level-up/hoisting.md) for more.

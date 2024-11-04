@@ -37,7 +37,7 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 - Intro to Javascript
 - Control Flow in Javascript
 
-### Github Pages Sites
+### Course landing pages
 
 - [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-functions/canvas-landing-pages/fallback)
 - [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-functions/canvas-landing-pages/seb)

@@ -23,7 +23,9 @@ We typically tackle a complex task by breaking it into smaller tasks or steps - 
 
 ### Code reuse
 
-Functions provide code reuse because they can be called repeatedly. For example, a `renderBoard` function might be called every time the data in a board variable is changed. This allows us to keep our code DRY.
+Functions help us reuse code by allowing us to run the same set of instructions multiple times. For example, a `renderBoard` function might be called every time the data in a board changes.
+
+This helps us avoid repeating the same code in many places — a principle often called **"Don't Repeat Yourself"** (or DRY). Writing code this way makes it easier to read, fix, and update later.
 
 ### Documentation & debugging 
 

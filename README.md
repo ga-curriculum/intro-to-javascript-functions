@@ -39,8 +39,8 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 
 ### Course landing pages
 
-- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-functions/canvas-landing-pages/fallback)
-- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-functions/canvas-landing-pages/seb)
+- [Default Landing Page](https://ga-curriculum.github.io/intro-to-javascript-functions/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://ga-curriculum.github.io/intro-to-javascript-functions/canvas-landing-pages/seb)
 
 ### Resources
 
@@ -52,4 +52,4 @@ This module provides a comprehensive introduction to functions in JavaScript, ai
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback)!**
